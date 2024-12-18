@@ -1,0 +1,54 @@
+/* 스타일 초기화 - 각각의 태그들에게 설정되어있는 기본스타일을 제거 */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    /* ,(콤마)쓰면 같이 선택된다(그룹을 해준다는 뜻) */
+    font-size: inherit;
+    /* 글씨크기를 부모태그에 적용된 글씨크기로 적용하겠다. = 상속시키겠다. */
+    font-weight: inherit;
+    /* 폰트두께를 부모태그에 적용된 폰트두께로 적용하겠다. = 상속시키겠다. */
+    /* 글씨와 관련된 것만 inherit할 수 있음 */
+    line-height: 1;
+    /* 행간을 1로 지정하는 것 */
+}
+/* 상속 스타일로 설정하는 이유는 영역태그에 글씨 관련 속성들을 지정했을 때 그 안에 자식태그나 자손태그 혹은 글자들의 글씨스타일을 한번에 적용 혹은 수정하기 편하게 하기 위해서이다. */
+strong,b{
+    font-weight: inherit;
+}
+i,em,address{
+    font-style: inherit;
+}
+a{
+    color: inherit;
+    /* a태그는 기본 글자색깔이 파란색계역이기때문에 */
+    text-decoration: inherit;
+    /* a태그는 기본 텍스트스타일이 밑줄(underline)이기때문에 */
+}
+ul,ol{
+    list-style: none;
+}
+img,video{
+    max-width: 100%;
+}
+input{outline: 0;}
+table{border-collapse: collapse;}
+
+/* 선택했을때 가장자리에 보더가 없어지는 소스코드 */
+textarea,input,option{
+    outline: 0;
+}
+form,label,input,select,option,textarea{
+    font-family: inherit;
+    font-weight: inherit;
+}
+input[type="submit"]{
+    background-color: transparent;
+}
+input[type="reset"]{
+    background-color: transparent;
+}
+button{
+    font-family: inherit;
+}

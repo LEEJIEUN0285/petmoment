@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262.65 69.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aa8a6e;
+        font-family: Pretendard-Medium-KSCpc-EUC-H, Pretendard;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: .06em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #1f433b;
+        font-family: DMSerifDisplay-Regular, 'DM Serif Display';
+        font-size: 50px;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #aa8a6e;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-3" transform="translate(0 41.5)"><tspan class="cls-7" x="0" y="0">P</tspan><tspan class="cls-2" x="27.25" y="0">et </tspan><tspan class="cls-4" x="81.55" y="0">M</tspan><tspan x="119.8" y="0">ome</tspan><tspan class="cls-5" x="215.95" y="0">n</tspan><tspan x="244.6" y="0">t</tspan></text>
+      <text class="cls-1" transform="translate(64.96 63.65)"><tspan x="0" y="0">PET TRAINING</tspan></text>
+      <line class="cls-6" x1="24.27" y1="57.29" x2="60.2" y2="57.29"/>
+      <line class="cls-6" x1="201.5" y1="57.29" x2="237.43" y2="57.29"/>
+    </g>
+  </g>
+</svg>
